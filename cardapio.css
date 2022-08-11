@@ -1,18 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    
    
 }
 body{
-    background: rgb(115, 156, 220);
+    background: rgb(247, 228, 134); 
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-image: url("https://i.pinimg.com/564x/e2/ef/ce/e2efce0bc2d88e10daa110c93d2eec9d.jpg")
 }
 
 ul{
     list-style: none;
 }
 header {
-     padding: 32px 0;
+    padding: 32px 0;
     text-align: center;    
     }
     header h1{
@@ -21,7 +23,7 @@ header {
     }
 header,
 section{
-        max-width: 300px;
+        max-width: 350px;
         margin: 0 auto;
     }
 section{
@@ -29,31 +31,79 @@ section{
 }
 section h2{
     font-size: 18px;
-    background-color: rgb(86, 122, 181);
+    background-color:rgb(247, 228, 134); 
     text-align: center;
     padding: 8px 16px;
     margin-bottom: 24px;
 }
 ul li{
     margin-bottom: 16px;
-    display: flex;
+    display:flow-root;
+    max-width: 350px;
+    max-width: 350px;
+    
+    
     }
 li .details {
     max-width: 240px;
+    border: 1px solid black;
+    overflow-wrap:break-word;
+    max-width: 350px;
+    margin-bottom: 5px;
+    
+    
 }
 .details h3{
     margin-bottom: 8px;
     font-size: 16px;
     line-height: 13px;
+    
+    
 }
 .details p{
     color: rgba(0, 0, 0, 0.7);
     font-size: 14px;
     line-height: 21px;
-
+    
 }
 
-h1, h2, h3,h4, .price {
+h1, h2, h3,h4 {
+
 font-family: serif;
 text-transform: uppercase;
+
+ 
+    
+}
+.strong  {
+    text-align: center;
+    max-width: 350px;
+    
+}
+.price {
+    
+    font-family: serif;
+    text-transform: uppercase;
+    display: flexbox;
+    margin-bottom: 5px;
+    margin-right: 12px;
+    display: beetw;
+    
+   
+   }
+
+.description{
+    flex-direction: column;
+    text-align:justify;
+    overflow-wrap:break-word;
+    
+}
+.acrescimo {
+    display:flexbox;
+    max-width: 240px;
+    overflow-wrap:break-word;
+    max-width: 350px;
+    margin-bottom: 5px;
+    
+
 }
